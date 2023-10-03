@@ -10,9 +10,10 @@ import styled from 'styled-components';
 // import { GiImpLaugh } from "react-icons/gi";
 // import { GiSpectre } from "react-icons/gi";
 import { GiChewedSkull } from "react-icons/gi";
+import { animateScroll as scroll } from 'react-scroll'; 
 
 
-export const Nav = styled.div`
+const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
     height: 80px;
     display: flex;
@@ -26,7 +27,7 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
-export const NavbarContainer = styled.div`
+const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +38,7 @@ export const NavbarContainer = styled.div`
   max-width: 1200px;
 `;
 
-export const NavLogo = styled(LinkR)`
+const NavLogo = styled(LinkR)`
     width: 80%;    
     padding: 0 6px;
     display: flex;
@@ -48,12 +49,12 @@ export const NavLogo = styled(LinkR)`
       padding: 0 0px;
   }
 `;
-export const Span = styled.div`
+const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
     font-size: 30px;
 `;
-export const NavItems = styled.ul`
+const NavItems = styled.ul`
     width: 100%;
     display: flex;
     align-items: center;
@@ -67,23 +68,39 @@ export const NavItems = styled.ul`
     }
 `;
 
-export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    :hover {
-      color: ${({ theme }) => theme.primary};
-    }
+const NavLink = styled.a`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out; /* Change only color on hover */
+  text-decoration: none;
+  position: relative; /* Added for positioning the underline */
 
-    &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.primary};
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center top;
+    width: 100%;
+    height: 2px;
+    background: ${({ theme }) => theme.primary};
+    transition: transform 0.3s ease-in-out; /* Transition transform property */
+  }
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+    &:after {
+      transform: translateX(-50%) scaleX(1); /* Expand evenly from center */
     }
+  }
 `;
 
 
-export const GitHubButton = styled.a`
+
+const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
   display: flex;
@@ -106,7 +123,7 @@ export const GitHubButton = styled.a`
     }
 `;
 
-export const ButtonContainer = styled.div`
+const ButtonContainer = styled.div`
   width: 80%;  
   height: 100%;
   display: flex;
@@ -119,7 +136,7 @@ export const ButtonContainer = styled.div`
 `;
 
 
-export const MobileIcon = styled.div`
+const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
     display: block;
@@ -133,7 +150,7 @@ export const MobileIcon = styled.div`
   }
 `
 
-export const MobileMenu = styled.div`
+const MobileMenu = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,6 +247,13 @@ export const MobileNavLogo = styled(LinkR)`
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
+  const handleScroll = (target) => {
+    scroll.scrollTo(target, {
+      duration: 0,
+      smooth: 'easeInOutQuart',
+      offset: -50  // Adjust the offset as needed
+    });
+  };
   return (
     <Nav>
       <NavbarContainer>
@@ -246,7 +270,7 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
+          <NavLink onClick={() => handleScroll('about')}>About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>

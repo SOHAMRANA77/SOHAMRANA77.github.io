@@ -158,12 +158,12 @@ const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+    background: hsla(231, 100%, 30%, 1);
+    background: linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
+    box-shadow:  10px 10px 30px rgba(31, 38, 52, 0.5),
+             -10px -10px 30px rgba(31, 38, 52, 0.5);
     margin-top: -20px;
     &:hover {
         transform: scale(1.05);

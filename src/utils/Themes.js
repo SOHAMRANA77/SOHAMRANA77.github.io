@@ -1,12 +1,13 @@
 export const darkTheme = {
-  bg: "#1C1C27",
-  bgLight: "#1C1E27",
-  primary: "#854CE6",
+  bg: "#0d0d0c",
+  bgLight: "#0d0d0c",
+  primary: "#0A249C",
   text_primary: "#F2F3F4",
   text_secondary: "#b1b2b3",
-  card: "#171721",
-  card_light: "#191924",
-  button: "#854CE6",
+  // Skill Box 
+  card: "#0d0d0c",
+  card_light: "#0d0d0c",
+  button: "#564ce6",
   white: "#FFFFFF",
   black: "#000000",
 };
@@ -20,3 +21,16 @@ export const lightTheme = {
   card: "#FFFFFF",
   button: "#5c5b5b",
 };
+
+// export const darkTheme = {
+//   bg: "#1C1C27",
+//   bgLight: "#1C1E27",
+//   primary: "#854CE6",
+//   text_primary: "#F2F3F4",
+//   text_secondary: "#b1b2b3",
+//   card: "#171721",
+//   card_light: "#191924",
+//   button: "#854CE6",
+//   white: "#FFFFFF",
+//   black: "#000000",
+// };
