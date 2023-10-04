@@ -158,18 +158,18 @@ const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(231, 100%, 30%, 1);
-    background: linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(231, 100%, 30%, 1) 0%, hsla(254, 100%, 30%, 1) 100%);
-    box-shadow:  10px 10px 30px rgba(31, 38, 52, 0.5),
-             -10px -10px 30px rgba(31, 38, 52, 0.5);
+    background: hsla(219.783, 80%, 55%, 1);
+    background: linear-gradient(225deg, hsla(219, 80%, 55%, 1) 0%, hsla(242, 80%, 55%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(219, 80%, 55%, 1) 0%, hsla(242, 80%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(219, 80%, 55%, 1) 0%, hsla(242, 80%, 55%, 1) 100%);
+    box-shadow:  10px 10px 30px rgba(48, 110, 232, 0.2),
+             -10px -10px 30px rgba(48, 110, 232, 0.2);
     margin-top: -20px;
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+    box-shadow:  20px 20px 60px #306EE8 ,
+    filter: brightness(-100);
     }    
     
     
@@ -188,7 +188,7 @@ const Image = styled.img`
     max-height: 450px;
     border-radius: 50%;
     border: 0px solid ${({ theme }) => theme.primary};
-    margin-top: -60px;
+    margin-top: -100px;
 
     @media (max-width: 768px) {
     max-width: 400px;

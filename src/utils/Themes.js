@@ -1,7 +1,7 @@
 export const darkTheme = {
   bg: "#0d0d0c",
   bgLight: "#0d0d0c",
-  primary: "#0A249C",
+  primary: "#306EE8",
   text_primary: "#F2F3F4",
   text_secondary: "#b1b2b3",
   // Skill Box 

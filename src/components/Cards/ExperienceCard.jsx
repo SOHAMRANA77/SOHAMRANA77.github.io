@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Document = styled.img`
     display: none;
-    height: 70px;
+    height: 40px;
     width: fit-content;
     background-color: #000;
     border-radius: 10px;
@@ -126,11 +126,17 @@ const Skills = styled.div`
     gap: 12px;
     margin-top: -10px;
 `
+const ToolsContainer = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: 1px;
+`
 
 const ItemWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 4px;
 `
 
 const Skill = styled.div`
@@ -171,12 +177,20 @@ const ExperienceCard = ({ experience }) => {
                                 ))}
                             </ItemWrapper>
                         </Skills>
+                        <ToolsContainer>
+                            <b>Tools:</b>
+                            <ItemWrapper>
+                                {experience?.tools?.map((skill, index) => (
+                                    <Skill>• {skill}</Skill>
+                                ))}
+                            </ItemWrapper>
+                        </ToolsContainer>
                     </>
                 }
             </Description>
             {experience.doc &&
                 <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
+                    <Document src={"https://media.flaticon.com/dist/min/img/landing/gsuite/docs.svg"} />
                 </a>
             }
         </Card>

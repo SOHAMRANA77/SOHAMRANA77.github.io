@@ -37,15 +37,15 @@ margin-top: 12px;
   }
 `;
 
-const Desc = styled.div`
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
-        font-size: 16px;
-    }
-`;
+// const Desc = styled.div`
+//     font-size: 18px;
+//     text-align: center;
+//     max-width: 600px;
+//     color: ${({ theme }) => theme.text_secondary};
+//     @media (max-width: 768px) {
+//         font-size: 16px;
+//     }
+// `;
 
 const SkillsContainer = styled.div`
   width: 100%;
@@ -60,7 +60,7 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
+  border: 0.1px solid #306EE8;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
@@ -124,8 +124,8 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
-        </Desc>
+        {/* <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        </Desc> */}
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>
