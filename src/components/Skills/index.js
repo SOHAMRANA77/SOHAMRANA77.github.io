@@ -60,9 +60,9 @@ const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #306EE8;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border-radius: 16px;
+  border: 0.2px solid #306EE8;
+  // box-shadow: rgba(48, 110, 232, 0.2) 0px 4px 24px;
+  border-radius: 60px;
   padding: 18px 36px;
   @media (max-width: 768px) {
     max-width: 400px;
@@ -103,6 +103,11 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+    filter: brightness(1.1);
+}
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

@@ -14,6 +14,11 @@ const Button = styled.button`
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+    :hover {
+        background: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.white};
+    @media screen and (max-width: 768px) { 
+        font-size: 14px;}
 `
 const Card = styled.div`
     width: 330px;
@@ -123,6 +128,8 @@ const Avatar = styled.img`
 `
 
 const ProjectCards = ({project,setOpenModal}) => {
+    const openGithubLink = (link) => {
+        window.open(link, '_blank');  };
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
             <Image src={project.image}/>
@@ -141,7 +148,7 @@ const ProjectCards = ({project,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            <Button>View Project</Button>
+            <Button onClick={() => openGithubLink(project.github)}>Github</Button>
         </Card>
     )
 }

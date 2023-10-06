@@ -212,9 +212,9 @@ const Hero = () => {
     return(
         <div id="about">
             <HeroContainer>
-                <HeroBg>
+                {/* <HeroBg>
                     <HeroBgAnimation />
-                </HeroBg>
+                </HeroBg> */}
                 <HeroInnerContainer>
                     <HeroLeftContainer>
                         <Title>Hi, I am <br/>{Bio.name}<div className="hand-wave">👋</div></Title>
