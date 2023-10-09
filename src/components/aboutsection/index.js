@@ -4,9 +4,9 @@ import { Bio } from "../../data/constants";
 import TypeWriter from "typewriter-effect";
 import './handWave.css'; 
 import myprofile from "../../Images/profile.png";
-import HeroBgAnimation from "../HeroBgAnimation";
+// import HeroBgAnimation from "../HeroBgAnimation";
 
-const HeroContainer = styled.div`
+const AboutBlock = styled.div`
     background: ${({ theme }) => theme.card_light};
     display: flex;
     justify-content: center;
@@ -21,31 +21,31 @@ const HeroContainer = styled.div`
     z-index: 1;
     // this path
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
-`;
-const HeroBg = styled.div`
-  position: absolute;
-  display: flex;
-  justify-content: end;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 85.5%;
-  height: 100%;
-  max-width: 1360px;
-  overflow: hidden;
-  padding: 0 30px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+`
+// const HeroBg = styled.div`
+//   position: absolute;
+//   display: flex;
+//   justify-content: end;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   width: 85.5%;
+//   height: 100%;
+//   max-width: 1360px;
+//   overflow: hidden;
+//   padding: 0 30px;
+//   top: 50%;
+//   left: 50%;
+//   -webkit-transform: translateX(-50%) translateY(-50%);
+//   transform: translateX(-50%) translateY(-50%);
 
-  @media (max-width: 960px) {
-    justify-content: center;
-    padding: 0 0px;
-  }
-`;
-const HeroInnerContainer = styled.div`
+//   @media (max-width: 960px) {
+//     justify-content: center;
+//     padding: 0 0px;
+//   }
+// `
+const AboutInnerBlock = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -56,8 +56,8 @@ const HeroInnerContainer = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
-`;
-const HeroLeftContainer = styled.div`
+`
+const AboutLeftBlock = styled.div`
   width: 100%;
   order: 1;
   @media (max-width: 960px) {
@@ -75,8 +75,8 @@ const HeroLeftContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`;
-const HeroRightContainer = styled.div`
+`
+const AboutRightBlock = styled.div`
   width: 100%;
   display: flex;
   order: 2;
@@ -92,7 +92,7 @@ const HeroRightContainer = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
-`;
+`
 
 const Title = styled.div`
     font-weight: 700;
@@ -208,15 +208,15 @@ const StyledText = styled.span`
   font-weight: bold;
 `;
 
-const Hero = () => {
+const AboutPage = () => {
     return(
         <div id="about">
-            <HeroContainer>
+            <AboutBlock>
                 {/* <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg> */}
-                <HeroInnerContainer>
-                    <HeroLeftContainer>
+                <AboutInnerBlock>
+                    <AboutLeftBlock>
                         <Title>Hi, I am <br/>{Bio.name}<div className="hand-wave">👋</div></Title>
                         <TextLoop>
                             I am a<span>
@@ -232,14 +232,14 @@ const Hero = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target="_blank">Resume</ResumeButton>
-                    </HeroLeftContainer>
-                    <HeroRightContainer>
+                    </AboutLeftBlock>
+                    <AboutRightBlock>
                         <Image src={myprofile} alt="Soham" />
-                    </HeroRightContainer>
-                </HeroInnerContainer>
-            </HeroContainer>
+                    </AboutRightBlock>
+                </AboutInnerBlock>
+            </AboutBlock>
         </div> 
     )
 }
 
-export default Hero
+export default AboutPage

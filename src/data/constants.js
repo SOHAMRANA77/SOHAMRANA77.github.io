@@ -145,7 +145,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://pbs.twimg.com/profile_images/1500852401988943879/xsUexyN__400x400.jpg",
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/001f2f2b-dba6-49ef-8bc1-966c88abf5c3",
     role: "Big Data Engineer Intern",
     company: "Advantmed,LLC",
     date: "september 2022 - february 2023",
@@ -169,7 +169,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://pbs.twimg.com/profile_images/1627702356803715072/F8w88oa2_400x400.jpg",
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/637fd3e5-531c-4030-a386-a6f48e834976",
     school: "Parul University, Vadodara",
     date: "jun 2021 - apr 2023",
     grade: "7.36 CGPA",
@@ -178,7 +178,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://pbs.twimg.com/profile_images/1627702356803715072/F8w88oa2_400x400.jpg",
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/637fd3e5-531c-4030-a386-a6f48e834976",
     school: "Parul University, Vadodara",
     date: "apr 2018 - Apr 2022",
     grade: "6.54 CGPA",
@@ -187,7 +187,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://play-lh.googleusercontent.com/CM6ulkNyoNAPp4Umrqe26eEs8-lb0y5sdInmE6jZqt6kyokpkUIV-Jpah_emRIZPdL5z=w240-h480-rw",
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/347bbd9a-d0ac-4dcf-8a51-64490602b0cb",
     school: "Shree Narayan Vidyalaya",
     date: "jun 2016 - Apr 2018",
     grade: "64.3%",
@@ -196,8 +196,8 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://cdn.mybcrd.com/747_Sardar-Vallabha-Vidyalaya-New-Logo2.jpg",
-    school: "Methodist School, Dankuni",
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/5589ddbf-87e9-41cc-a248-ca39084d439b",
+    school: "Sardar Vallabha Vidyalaya",
     date: "jun 2006 - Apr 2016",
     grade: "81%",
     desc: "I successfully completed my 10th standard education, which provided me with a solid academic foundation. During this time, I gained valuable knowledge in various subjects, honing my analytical and problem-solving abilities. This educational milestone has prepared me for further academic pursuits and set the stage for my future career endeavors.",
@@ -211,8 +211,8 @@ export const projects = [
     title: "Rock-Paper-Scissors_game",
     date: "Apr 2023 - May 2023",
     description:
-      "This Python-based Rock, Paper, Scissors game is an interactive implementation of the classic hand game. The game utilizes the Pygame library for creating an engaging graphical user interface. Users can play against the computer by selecting their move—rock, paper, or scissors—via intuitive buttons. The computer randomly generates its move, and the winner of each round is determined based on the classic rules of the game",
-    image: "https://github.com/SOHAMRANA77/Rock-Paper-Scissors_game/assets/116181846/1e581a0f-5c75-4de7-80fb-f6c584623c1b",
+      "This Python-based Rock, Paper, Scissors game is an interactive implementation of the classic hand game. The game ",
+    image: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/2968cb01-5ede-4a97-a676-f125c64e4597",
     tags: ["Pygame", "Python"],
     category: "Pygame",
     github: "https://github.com/SOHAMRANA77/Rock-Paper-Scissors_game",
@@ -234,23 +234,48 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "tic-tac-toe",
+    date: "jun 2023 - Jul 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "This is a simple implementation of the classic Tic Tac Toe game using Python and the Pygame library. The game ",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/7b04dfdf-eaee-4143-8560-11bcb5b9dc77",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "AI Algorithm: Minimax",
+      "Python",
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/tic-tac-toe",
+  },
+  {
+    id: 2,
+    title: "journey-python",
+    date: "jun 2023 - sep 2023",
+    description:
+      "Welcome to my Python Journey repository! 🐍 Here, I chronicle my exciting voyage through the world of Python ",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/fb652c2d-c316-40fa-8e53-ed73f4a2dfb3",
+    tags: [
+      "Python",
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/journey-python",
+  },
+  {
+    id: 3,
+    title: "Data-Analysis",
+    date: "oct 2023",
+    description:
+      "This project involves data analysis using Python and Pandas library. The analysis focuses on weather data",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/74985e36-480a-432a-86af-dab3b03a8ea5",
+    tags: [
+      "Python",
+      "Pandas",
+      "Jupyter Notebook",
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/Data-Analysis",
   },
 ];
 
