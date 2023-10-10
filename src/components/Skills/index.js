@@ -47,7 +47,7 @@ margin-top: 12px;
 //     }
 // `;
 
-const SkillsContainer = styled.div`
+const SkillsBox = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@ const Skills = () => {
         <Title>Skills</Title>
         {/* <Desc>Here are some of my skills on which I have been working on for the past 2 years.
         </Desc> */}
-        <SkillsContainer>
+        <SkillsBox>
           {skills.map((skill) => (
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
@@ -146,7 +146,7 @@ const Skills = () => {
             </Skill>
           ))}
 
-        </SkillsContainer>
+        </SkillsBox>
       </Wrapper>
     </Container>
   )

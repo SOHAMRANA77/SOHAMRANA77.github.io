@@ -3,7 +3,8 @@ import BookIcon from '@mui/icons-material/Book';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -102,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="mailto:{Bio.mail}" target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           {/* &copy; 2023 Rana Soham. All rights reserved. */}

@@ -23,7 +23,7 @@ const Container = styled.div`
     }
 `;
 
-const Wrapper = styled.div`
+const ExpBox = styled.div`
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ const Desc = styled.div`
     }
 `;
 
-const TimelineSection = styled.div`
+const TimelineBox = styled.div`
     width: 100%;
     max-width: 1000px;
     margin-top: 10px;
@@ -77,12 +77,12 @@ const TimelineSection = styled.div`
 const index = () => {
     return (
         <Container id="experience">
-            <Wrapper>
+            <ExpBox>
                 <Title>Experience</Title>
                 <Desc>
                     {/* My work experience as a software engineer and working on different companies and projects. */}
                 </Desc>
-                <TimelineSection>
+                <TimelineBox>
                     <Timeline>
                         {experiences.map((experience,index) => (
                             <TimelineItem>
@@ -97,8 +97,8 @@ const index = () => {
                         ))}
                     </Timeline>
 
-                </TimelineSection>
-            </Wrapper>
+                </TimelineBox>
+            </ExpBox>
         </Container>
     )
 }

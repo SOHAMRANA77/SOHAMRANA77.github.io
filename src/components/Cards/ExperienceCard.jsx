@@ -126,14 +126,14 @@ const Skills = styled.div`
     gap: 12px;
     margin-top: -10px;
 `
-const ToolsContainer = styled.div`
+const ToolsBox = styled.div`
     width: 100%;
     display: flex;
     gap: 12px;
     margin-top: 1px;
 `
 
-const ItemWrapper = styled.div`
+const ItemBox = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
@@ -171,20 +171,20 @@ const ExperienceCard = ({ experience }) => {
                         <br />
                         <Skills>
                             <b>Skills:</b>
-                            <ItemWrapper>
+                            <ItemBox>
                                 {experience?.skills?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>
                                 ))}
-                            </ItemWrapper>
+                            </ItemBox>
                         </Skills>
-                        <ToolsContainer>
+                        <ToolsBox>
                             <b>Tools:</b>
-                            <ItemWrapper>
+                            <ItemBox>
                                 {experience?.tools?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>
                                 ))}
-                            </ItemWrapper>
-                        </ToolsContainer>
+                            </ItemBox>
+                        </ToolsBox>
                     </>
                 }
             </Description>
