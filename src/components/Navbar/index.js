@@ -10,7 +10,8 @@ import styled from 'styled-components';
 // import { GiImpLaugh } from "react-icons/gi";
 // import { GiSpectre } from "react-icons/gi";
 import { GiChewedSkull } from "react-icons/gi";
-import { animateScroll as scroll } from 'react-scroll'; 
+import { animateScroll as scroll } from 'react-scroll';
+
 
 
 const Nav = styled.div`

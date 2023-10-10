@@ -6,6 +6,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 // import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import { Bio } from '../../data/constants';
+import WavingHandIcon from '@mui/icons-material/WavingHand';
+import CodeIcon from '@mui/icons-material/Code';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -88,6 +90,7 @@ const Copyright = styled.p`
 
 function Footer() {
   return (
+    <div id="footer">
     <FooterContainer>
       <FooterWrapper>
         <Logo>Soham Rana</Logo>
@@ -106,11 +109,14 @@ function Footer() {
           <SocialMediaIcon href="mailto:{Bio.mail}" target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          {/* &copy; 2023 Rana Soham. All rights reserved. */}
+          &copy; 2023 Rana Soham. All rights reserved.
+          <p>Portfolio source code available here</p>
         </Copyright>
+        <NavLink href="https://github.com/SOHAMRANA77"><CodeIcon/></NavLink>
 
       </FooterWrapper>
     </FooterContainer>
+    </div>
   );
 }
 
