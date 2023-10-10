@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 // import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import { Bio } from '../../data/constants';
-import WavingHandIcon from '@mui/icons-material/WavingHand';
+// import WavingHandIcon from '@mui/icons-material/WavingHand';
 import CodeIcon from '@mui/icons-material/Code';
 
 const FooterContainer = styled.div`
