@@ -55,80 +55,74 @@ export const CardContainer = styled.div`
     //    grid-template-columns: repeat(1, 1fr);
     // }
 `;
-
-// export const Desc = styled.div`
-//     font-size: 18px;
-//     text-align: center;
-//     max-width: 600px;
-//     color: ${({ theme }) => theme.text_secondary};
-//     @media (max-width: 768px) {
-//         margin-top: 12px;
-//         font-size: 16px;
-//     }
-// `;
-
-// export const ToggleButtonGroup = styled.div`
-//     display: flex;
-//     border: 1.5px solid ${({ theme }) => theme.primary};
-//     color: ${({ theme }) => theme.primary};
-//     font-size: 16px;
-//     border-radius: 12px;
-//     font-weight: 500;
-//     margin: 22px 0px;
-//     @media (max-width: 768px) {
-//         font-size: 12px;
-//     }
-// `
-
-// export const ToggleButton = styled.div`
-//     padding: 8px 18px;
-//     border-radius: 6px;
-//     cursor: pointer;
-//     ${({ active, theme }) =>
-//         active && `
-//     background: ${theme.primary + 20};
-//     `
-//     }
-//     &:hover {
-//         background: ${({ theme }) => theme.primary + 8};
-//     }
-//     @media (max-width: 768px) {
-//         padding: 6px 8px;
-//         border-radius: 4px;
-//     }
-// `
-// export const Divider = styled.div`
-//     width: 1.5px;
-//     background: ${({ theme }) => theme.primary};
-// `
-
-
-
-{/* <Desc>
-I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
-</Desc> 
-<ToggleButtonGroup >
-{toggle === 'all' ?
-<ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-:
-<ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-}
-<Divider /> 
-{toggle === 'web app' ?
-<ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
-:
-<ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
-}
-<Divider />
-{toggle === 'android app' ?
-<ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-:
-<ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-}
-<Divider />
-{toggle === 'machine learning' ?
-<ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-:
-<ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-}
-</ToggleButtonGroup> */}
+// // export const Desc = styled.div`
+// //     font-size: 18px;
+// //     text-align: center;
+// //     max-width: 600px;
+// //     color: ${({ theme }) => theme.text_secondary};
+// //     @media (max-width: 768px) {
+// //         margin-top: 12px;
+// //         font-size: 16px;
+// //     }
+// // `;
+// // export const ToggleButtonGroup = styled.div`
+// //     display: flex;
+// //     border: 1.5px solid ${({ theme }) => theme.primary};
+// //     color: ${({ theme }) => theme.primary};
+// //     font-size: 16px;
+// //     border-radius: 12px;
+// //     font-weight: 500;
+// //     margin: 22px 0px;
+// //     @media (max-width: 768px) {
+// //         font-size: 12px;
+// //     }
+// // `
+// // export const ToggleButton = styled.div`
+// //     padding: 8px 18px;
+// //     border-radius: 6px;
+// //     cursor: pointer;
+// //     ${({ active, theme }) =>
+// //         active && `
+// //     background: ${theme.primary + 20};
+// //     `
+// //     }
+// //     &:hover {
+// //         background: ${({ theme }) => theme.primary + 8};
+// //     }
+// //     @media (max-width: 768px) {
+// //         padding: 6px 8px;
+// //         border-radius: 4px;
+// //     }
+// // `
+// // export const Divider = styled.div`
+// //     width: 1.5px;
+// //     background: ${({ theme }) => theme.primary};
+// // `
+// {/* <Desc>
+// I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+// </Desc> 
+// <ToggleButtonGroup >
+// {toggle === 'all' ?
+// <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+// :
+// <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+// }
+// <Divider /> 
+// {toggle === 'web app' ?
+// <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+// :
+// <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+// }
+// <Divider />
+// {toggle === 'android app' ?
+// <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+// :
+// <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+// }
+// <Divider />
+// {toggle === 'machine learning' ?
+// <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+// :
+// <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+// }
+// </ToggleButtonGroup> */}
