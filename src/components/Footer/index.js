@@ -106,7 +106,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="mailto:{Bio.mail}" target="display"><EmailIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="mailto:sohamrana77@gmail.com" target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Rana Soham. All rights reserved.
