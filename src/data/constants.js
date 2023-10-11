@@ -190,7 +190,7 @@ export const education = [
     id: 2,
     img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/347bbd9a-d0ac-4dcf-8a51-64490602b0cb",
     school: "Shree Narayan Vidyalaya",
-    date: "jun 2016 - may 2018",
+    date: "jun 2016 - May 2018",
     grade: "64.3%",
     desc: "I successfully completed my 12th grade with a specialization in Mathematics. This academic journey enhanced my analytical thinking, problem-solving abilities, and mathematical skills. I am eager to leverage this educational foundation to excel in further studies and pursue a career aligned with my passion for numbers and logical reasoning.",
     degree: "HSC, Science with Computer",
