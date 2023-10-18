@@ -8,7 +8,7 @@ You can see the live version of the website at [Live Portfolio](https://sohamran
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/SOHAMRANA77/journey-python/assets/116181846/c6a912b2-df7a-411c-9b68-18a776b28925)
+![Screenshot 1](https://github.com/SOHAMRANA77/journey-python/assets/116181846/e67aa0b3-2213-4da5-8030-84c7f1d49e5c)
 ## 📚 Installation
 
 To run this project locally, follow these steps:
