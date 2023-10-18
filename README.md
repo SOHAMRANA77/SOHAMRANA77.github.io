@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your_username/react-portfolio.git
+   git clone https://github.com/SOHAMRANA77/SOHAMRANA77.github.io.git
    cd react-portfolio
 2. Install dependencies:
     ```sh
@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 
 ## 📁 Folder structure
 
--   `/public`: publicly accessible contents (ex: images, media).
+-   `/public`: publicly accessible contents.
 -   `/src`: all the components used in this project.
     -   `/src/components/`: each reusable components of each pages.
     -   `/src/data`: all the data of the web app.
