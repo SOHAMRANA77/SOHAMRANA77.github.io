@@ -149,7 +149,7 @@ export const experiences = [
     id: 0,
     img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/001f2f2b-dba6-49ef-8bc1-966c88abf5c3",
     role: "Big Data Engineer Intern",
-    company: "Advantmed,LLC",
+    company: "Advantmed,LLP",
     date: "september 2022 - february 2023",
     desc: "I have demonstrated proficiency in designing, developing, and maintaining software applications. My expertise lies in utilizing the programming languages such as Python, PySpark, and MYSQL to process and analyze data effectively. I am well-versed in techniques for handling large datasets, encompassing data cleansing, integration, transformation, and standardization. Moreover, I possess a strong understanding of testing and deploying software systems and applications to guarantee efficient and accurate data processing and analysis.",
     skills: [
