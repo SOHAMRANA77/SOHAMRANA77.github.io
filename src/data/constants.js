@@ -209,7 +209,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 4,
     title: "Rock-Paper-Scissors_game",
     date: "Apr 2023 - May 2023",
     description:
@@ -235,7 +235,7 @@ export const projects = [
     // ],
   },
   {
-    id: 1,
+    id: 3,
     title: "tic-tac-toe",
     date: "jun 2023 - Jul 2023",
     description:
@@ -264,7 +264,7 @@ export const projects = [
     github: "https://github.com/SOHAMRANA77/journey-python",
   },
   {
-    id: 3,
+    id: 1,
     title: "Data-Analysis",
     date: "oct 2023",
     description:
@@ -278,5 +278,22 @@ export const projects = [
     ],
     category: "Python",
     github: "https://github.com/SOHAMRANA77/Data-Analysis",
+  },
+  {
+    id: 0,
+    title: "Web Scraping",
+    date: "jan 2024",
+    description:
+      "performing ETL (Extract, Transform, Load) operations on data related to the top 10 largest banks in the world",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/f5a9811a-558f-4132-ada6-edd20638e21a",
+    tags: [
+      "Python",
+      "Pandas",
+      "ETL",
+      "SQlite3"
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/WebScraping1o1",
   },
 ];
