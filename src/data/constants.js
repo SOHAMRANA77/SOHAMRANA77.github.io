@@ -208,6 +208,69 @@ export const education = [
 ];
 
 export const projects = [
+  
+  {
+    id: 0,
+    title: "Web Scraping",
+    date: "jan 2024",
+    description:
+      "performing ETL (Extract, Transform, Load) operations on data related to the top 10 largest banks in the world",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/f5a9811a-558f-4132-ada6-edd20638e21a",
+    tags: [
+      "Python",
+      "Pandas",
+      "ETL",
+      "SQlite3"
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/WebScraping1o1",
+  },
+  {
+    id: 1,
+    title: "Data-Analysis",
+    date: "oct 2023",
+    description:
+      "This project involves data analysis using Python and Pandas library. The analysis focuses on weather data",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/74985e36-480a-432a-86af-dab3b03a8ea5",
+    tags: [
+      "Python",
+      "Pandas",
+      "Jupyter Notebook",
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/Data-Analysis",
+  },
+  {
+    id: 2,
+    title: "journey-python",
+    date: "jun 2023 - sep 2023",
+    description:
+      "Welcome to my Python Journey repository! 🐍 Here, I chronicle my exciting voyage through the world of Python ",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/fb652c2d-c316-40fa-8e53-ed73f4a2dfb3",
+    tags: [
+      "Python",
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/journey-python",
+  },
+  {
+    id: 3,
+    title: "tic-tac-toe",
+    date: "jun 2023 - Jul 2023",
+    description:
+      "This is a simple implementation of the classic Tic Tac Toe game using Python and the Pygame library. The game ",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/7b04dfdf-eaee-4143-8560-11bcb5b9dc77",
+    tags: [
+      "AI Algorithm: Minimax",
+      "Python",
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/tic-tac-toe",
+  },
   {
     id: 4,
     title: "Rock-Paper-Scissors_game",
@@ -233,67 +296,5 @@ export const projects = [
     //     github: "",
     //   },
     // ],
-  },
-  {
-    id: 3,
-    title: "tic-tac-toe",
-    date: "jun 2023 - Jul 2023",
-    description:
-      "This is a simple implementation of the classic Tic Tac Toe game using Python and the Pygame library. The game ",
-    image:
-      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/7b04dfdf-eaee-4143-8560-11bcb5b9dc77",
-    tags: [
-      "AI Algorithm: Minimax",
-      "Python",
-    ],
-    category: "Python",
-    github: "https://github.com/SOHAMRANA77/tic-tac-toe",
-  },
-  {
-    id: 2,
-    title: "journey-python",
-    date: "jun 2023 - sep 2023",
-    description:
-      "Welcome to my Python Journey repository! 🐍 Here, I chronicle my exciting voyage through the world of Python ",
-    image:
-      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/fb652c2d-c316-40fa-8e53-ed73f4a2dfb3",
-    tags: [
-      "Python",
-    ],
-    category: "Python",
-    github: "https://github.com/SOHAMRANA77/journey-python",
-  },
-  {
-    id: 1,
-    title: "Data-Analysis",
-    date: "oct 2023",
-    description:
-      "This project involves data analysis using Python and Pandas library. The analysis focuses on weather data",
-    image:
-      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/74985e36-480a-432a-86af-dab3b03a8ea5",
-    tags: [
-      "Python",
-      "Pandas",
-      "Jupyter Notebook",
-    ],
-    category: "Python",
-    github: "https://github.com/SOHAMRANA77/Data-Analysis",
-  },
-  {
-    id: 0,
-    title: "Web Scraping",
-    date: "jan 2024",
-    description:
-      "performing ETL (Extract, Transform, Load) operations on data related to the top 10 largest banks in the world",
-    image:
-      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/f5a9811a-558f-4132-ada6-edd20638e21a",
-    tags: [
-      "Python",
-      "Pandas",
-      "ETL",
-      "SQlite3"
-    ],
-    category: "Python",
-    github: "https://github.com/SOHAMRANA77/WebScraping1o1",
   },
 ];
