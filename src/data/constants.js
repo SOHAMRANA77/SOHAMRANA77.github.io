@@ -10,7 +10,7 @@ export const Bio = {
     "Empowered by an unyielding determination and an ever-adapting nature, I actively seek out new horizons. My insatiable hunger for knowledge fuels a strong dedication to delivering excellence consistently. Armed with a constructive outlook and a fervent appetite for personal growth, I am primed to make a meaningful impact and reach extraordinary heights.",
   github: "https://github.com/SOHAMRANA77",
   resume:
-    "https://drive.google.com/file/d/1OWjDC8SlWQdrwKpppS9X-3V195YX5UUo/view?usp=sharing",
+    "https://drive.google.com/file/d/1m9XRfeLDnZuLZ3djWHGbXCfwrAPfYjiO/view",
   linkedin: "https://www.linkedin.com/in/ranasoham",
   twitter: "https://twitter.com/soham_rana",
   insta: "https://www.instagram.com/sohyem_rana",
