@@ -166,6 +166,8 @@ export const experiences = [
     skills: [
       "JAVA",
       "Spring Boot",
+      "MYSQL",
+      "Angular",
     ],
     tools: [
       " Amazon Web Services (AWS)",
@@ -251,7 +253,7 @@ export const projects = [
       "Swagger API"
     ],
     category: "Python",
-    github: "https://github.com/SOHAMRANA77/WebScraping1o1",
+    github: "https://github.com/SOHAMRANA77/MealApp-Backend",
   },
   
   {
