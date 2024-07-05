@@ -2,9 +2,11 @@ export const Bio = {
   name: "Soham Rana",
   roles: [
     "Fresher",
-    // "Python Developer",
-    // "Big Data Engineer",
-    "Programmer",
+    "Python Developer",
+    "Big Data Engineer",
+    "Java Developer",
+    "Cloud Engineer",
+    // "Programmer",
   ],
   description:
     "Empowered by an unyielding determination and an ever-adapting nature, I actively seek out new horizons. My insatiable hunger for knowledge fuels a strong dedication to delivering excellence consistently. Armed with a constructive outlook and a fervent appetite for personal growth, I am primed to make a meaningful impact and reach extraordinary heights.",
@@ -23,10 +25,15 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "Angular",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png",
       },
+      // {
+      //   name: "React Js",
+      //   image:
+      //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -36,24 +43,28 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
+      // {
+      //   name: "JavaScript",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      // },
     ],
   },
   {
     title: "Backend",
     skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
+      // {
+      //   name: "Node Js",
+      //   image: "https://nodejs.org/static/images/logo.svg",
+      // },
       {
         name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name : "Spring Boot",
+        image: "https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.14.0/1716788657140/Microsoft.VisualStudio.Services.Icons.Default",
       },
       {
         name: "Python",
@@ -95,11 +106,11 @@ export const skills = [
         image:
           "https://spark.apache.org/images/kafka.png",
       },
-      {
-        name: "Google BigQuery",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg",
-      },
+      // {
+      //   name: "Google BigQuery",
+      //   image:
+      //     "https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg",
+      // },
     ],
   },
   {
@@ -108,7 +119,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://img.icons8.com/?size=48&id=20906&format=png",
       },
       {
         name: "GitHub",
@@ -147,6 +158,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/d02e92a9-0ca4-44e0-87db-cd6e8e6b777b",
+    role: "Cloud Engineer Intern",
+    company: "Rishabh Software",
+    date: "Jan 2024 - Jul 2024",
+    desc: "As a Cloud Engineer at Rishabh Software, I collaborate with seasoned professionals to design, implement, and optimize cloud-based solutions on leading platforms such as AWS, gaining hands-on experience in cloud architecture, automation, and DevOps practices. I have also contributed to the development of a Meal Booking Website using Angular, Spring Boot, and MySQL, where I implemented backend functionalities and utilized Swagger for API documentation. This project enhanced my skills in backend development, API integration, and ensuring seamless user experiences through clear documentation and efficient system design.",
+    skills: [
+      "JAVA",
+      "Spring Boot",
+    ],
+    tools: [
+      " Amazon Web Services (AWS)",
+      "Swagger APi"
+    ],
+    doc: "https://drive.google.com/file/d/1K_oruKsBJEVgLOPMIaEnTJ8VpLt7me2Z/view?usp=sharing",
+  },
+  {
+    id: 1,
     img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/001f2f2b-dba6-49ef-8bc1-966c88abf5c3",
     role: "Big Data Engineer Intern",
     company: "Advantmed,LLP",
@@ -208,9 +236,26 @@ export const education = [
 ];
 
 export const projects = [
-  
   {
     id: 0,
+    title: "Meal Booking Website",
+    date: "jan 2024",
+    description:
+      "quick/bulk booking, QR code system, and time-constrained bookings. Contributed to backend APIs, frontend integration, and team collaboration.",
+    image:
+      "https://github.com/SOHAMRANA77/journey-python/assets/116181846/8414c6e9-d8d2-49e1-81f8-b009af7f5554",
+    tags: [
+      "Angular",
+      "Spring Boot",
+      "MySQL",
+      "Swagger API"
+    ],
+    category: "Python",
+    github: "https://github.com/SOHAMRANA77/WebScraping1o1",
+  },
+  
+  {
+    id: 1,
     title: "Web Scraping",
     date: "jan 2024",
     description:
@@ -227,7 +272,7 @@ export const projects = [
     github: "https://github.com/SOHAMRANA77/WebScraping1o1",
   },
   {
-    id: 1,
+    id: 2,
     title: "Data-Analysis",
     date: "oct 2023",
     description:
@@ -243,7 +288,7 @@ export const projects = [
     github: "https://github.com/SOHAMRANA77/Data-Analysis",
   },
   {
-    id: 2,
+    id: 3,
     title: "journey-python",
     date: "jun 2023 - sep 2023",
     description:
@@ -257,7 +302,7 @@ export const projects = [
     github: "https://github.com/SOHAMRANA77/journey-python",
   },
   {
-    id: 3,
+    id: 4,
     title: "tic-tac-toe",
     date: "jun 2023 - Jul 2023",
     description:
@@ -272,7 +317,7 @@ export const projects = [
     github: "https://github.com/SOHAMRANA77/tic-tac-toe",
   },
   {
-    id: 4,
+    id: 5,
     title: "Rock-Paper-Scissors_game",
     date: "Apr 2023 - May 2023",
     description:
