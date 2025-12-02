@@ -1,18 +1,19 @@
 export const Bio = {
   name: "Soham Rana",
   roles: [
-    "Fresher",
-    "Python Developer",
-    "Big Data Engineer",
-    "Java Developer",
+    // "Fresher",
+    // "Python Developer",
+    // "Big Data Engineer",
+    // "Java Developer",
     "Cloud Engineer",
+    "DevOps Engineer",
     // "Programmer",
   ],
   description:
     "Empowered by an unyielding determination and an ever-adapting nature, I actively seek out new horizons. My insatiable hunger for knowledge fuels a strong dedication to delivering excellence consistently. Armed with a constructive outlook and a fervent appetite for personal growth, I am primed to make a meaningful impact and reach extraordinary heights.",
   github: "https://github.com/SOHAMRANA77",
   resume:
-    "https://drive.google.com/file/d/1vuwLH93L3gpJ8qN7jdtGe73ay2BcRFP0/view?usp=sharing",
+    "https://drive.google.com/file/d/10vnRM0OKOwQMqL0DXqGASq4GGV3p85oD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ranasoham",
   twitter: "https://twitter.com/soham_rana",
   insta: "https://www.instagram.com/sohyem_rana",
@@ -158,6 +159,28 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/001f2f2b-dba6-49ef-8bc1-966c88abf5c3",
+    role: "DevOps Engineer",
+    company: "Advantmed,LLP",
+    date: "August 2024 - present",
+    desc: "As a DevOps Engineer, I work on automating and managing cloud infrastructure on Microsoft Azure, focusing on scalability, security, and cost optimization. My role involves creating and maintaining CI/CD pipelines in Azure DevOps, deploying and monitoring workloads on Azure Kubernetes Service (AKS), and integrating Key Vault for secret management. I also implement autoscaling solutions with KEDA, manage Terraform-based infrastructure, and collaborate with developers to streamline deployments and improve system reliability.",
+    skills: [
+      "AKS(Kubernetes)",
+      "HelmChart",
+      "Shell scripting",
+      "Terraform",
+      "Keda"
+    ],
+    tools: [
+      "Azure",
+      "Docker",
+      "Grafana",
+      
+    ],
+    doc: "https://drive.google.com/file/d/1EMfFGHF4ClTXkTx5juIKH5O-_D0wM205/view?usp=sharing",
+  },
+  {
+    id: 1,
     img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/d02e92a9-0ca4-44e0-87db-cd6e8e6b777b",
     role: "Cloud Engineer Intern",
     company: "Rishabh Software",
@@ -176,7 +199,7 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/1K_oruKsBJEVgLOPMIaEnTJ8VpLt7me2Z/view?usp=sharing",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://github.com/SOHAMRANA77/journey-python/assets/116181846/001f2f2b-dba6-49ef-8bc1-966c88abf5c3",
     role: "Big Data Engineer Intern",
     company: "Advantmed,LLP",
