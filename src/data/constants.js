@@ -210,7 +210,7 @@ export const skills = [
       {
         name: "CI/CD Pipelines",
         image:
-          "https://github.com/user-attachments/assets/7dc6ee9c-d3f5-4131-9e75-1ea572151c4f",
+          "https://github.com/user-attachments/assets/5f8607c2-c990-456e-9e71-2b1548549db1",
       },
       {
         name: "Git",
@@ -235,7 +235,7 @@ export const skills = [
       {
         name: "YAML",
         image:
-          "https://github.com/user-attachments/assets/678bee24-5686-420f-9cbf-31ccf395ff4a",
+          "https://github.com/user-attachments/assets/5ec229fa-41c2-4290-b3ba-b694b6ea6a23",
       },
     ],
   },
