@@ -23,134 +23,279 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
+  //   title: "Frontend",
+  //   skills: [
+  //     {
+  //       name: "Angular",
+  //       image:
+  //         "https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png",
+  //     },
+  //     // {
+  //     //   name: "React Js",
+  //     //   image:
+  //     //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+  //     // },
+  //     {
+  //       name: "HTML",
+  //       image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+  //     },
+  //     // {
+  //     //   name: "JavaScript",
+  //     //   image:
+  //     //     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+  //     // },
+  //   ],
+  // },
+  // {
+  //   title: "Backend",
+  //   skills: [
+  //     // {
+  //     //   name: "Node Js",
+  //     //   image: "https://nodejs.org/static/images/logo.svg",
+  //     // },
+  //     {
+  //       name: "Java",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+  //     },
+  //     {
+  //       name : "Spring Boot",
+  //       image: "https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.14.0/1716788657140/Microsoft.VisualStudio.Services.Icons.Default",
+  //     },
+  //     {
+  //       name: "Python",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  //     },
+  //     {
+  //       name: "MySQL",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Big Data",
+  //   skills: [
+  //     {
+  //       name: "Apache Hadoop",
+  //       image:
+  //         "https://hadoop.apache.org/elephant.png",
+  //     },
+  //     {
+  //       name: "Apache Spark",
+  //       image:
+  //         "https://spark.apache.org/images/spark-logo-trademark.png",
+  //     },
+  //     {
+  //       name: "Apache Cassandra",
+  //       image:
+  //         "https://spark.apache.org/images/1280px-Cassandra_logo.png",
+  //     },
+  //     {
+  //       name: "Apache kafka",
+  //       image:
+  //         "https://spark.apache.org/images/kafka.png",
+  //     },
+  //     // {
+  //     //   name: "Google BigQuery",
+  //     //   image:
+  //     //     "https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg",
+  //     // },
+  //   ],
+  // },
+  // {
+  //   title: "Others",
+  //   skills: [
+  //     {
+  //       name: "Git",
+  //       image:
+  //         "https://img.icons8.com/?size=48&id=20906&format=png",
+  //     },
+  //     {
+  //       name: "GitHub",
+  //       image:
+  //         "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+  //     },
+  //     {
+  //       name: "Docker",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+  //     },
+  //     {
+  //       name: "PyCharm",
+  //       image:
+  //         "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png",
+  //     },
+  //     {
+  //       name: "VS Code",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+  //     },
+  //     {
+  //       name: "Jupyter Notebook",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png",
+  //     },
+  //     {
+  //       name: "AWS",
+  //       image:
+  //         "https://clipart-library.com/new_gallery/310-3104782_amazon-logo-png-white-aws-with-transparent-background.png",
+  //     },
+  //   ],
+  // },
+
+    title: "Cloud Platforms",
     skills: [
       {
-        name: "Angular",
+        name: "Microsoft Azure",
         image:
-          "https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png",
-      },
-      // {
-      //   name: "React Js",
-      //   image:
-      //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      // },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg",
       },
       {
-        name: "CSS",
+        name: "Azure Kubernetes Service (AKS)",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg",
       },
-      // {
-      //   name: "JavaScript",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      // },
+      {
+        name: "AWS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
     ],
   },
   {
-    title: "Backend",
+    title: "Containers & Orchestration",
     skills: [
-      // {
-      //   name: "Node Js",
-      //   image: "https://nodejs.org/static/images/logo.svg",
-      // },
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name : "Spring Boot",
-        image: "https://vscjava.gallerycdn.vsassets.io/extensions/vscjava/vscode-spring-boot-dashboard/0.14.0/1716788657140/Microsoft.VisualStudio.Services.Icons.Default",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-    ],
-  },
-  {
-    title: "Big Data",
-    skills: [
-      {
-        name: "Apache Hadoop",
-        image:
-          "https://hadoop.apache.org/elephant.png",
-      },
-      {
-        name: "Apache Spark",
-        image:
-          "https://spark.apache.org/images/spark-logo-trademark.png",
-      },
-      {
-        name: "Apache Cassandra",
-        image:
-          "https://spark.apache.org/images/1280px-Cassandra_logo.png",
-      },
-      {
-        name: "Apache kafka",
-        image:
-          "https://spark.apache.org/images/kafka.png",
-      },
-      // {
-      //   name: "Google BigQuery",
-      //   image:
-      //     "https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg",
-      // },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://img.icons8.com/?size=48&id=20906&format=png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
       {
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
-        name: "PyCharm",
+        name: "Kubernetes",
         image:
-          "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg",
+      },
+      {
+        name: "Helm",
+        image:
+          "https://raw.githubusercontent.com/cncf/artwork/master/projects/helm/icon/color/helm-icon-color.svg",
+      },
+      {
+        name: "KEDA",
+        image:
+          "https://raw.githubusercontent.com/cncf/artwork/master/projects/keda/icon/color/keda-icon-color.svg",
+      },
+    ],
+  },
+  {
+    title: "CI/CD & DevOps Tools",
+    skills: [
+      {
+        name: "Azure DevOps",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg",
+      },
+      {
+        name: "CI/CD Pipelines",
+        image:
+          "https://img.icons8.com/color/480/continuous-integration.png",
+      },
+      {
+        name: "Git",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+    ],
+  },
+  {
+    title: "Infrastructure as Code",
+    skills: [
+      {
+        name: "Terraform",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg",
+      },
+      {
+        name: "YAML",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/yaml.svg",
+      },
+    ],
+  },
+  {
+    title: "Monitoring & Observability",
+    skills: [
+      {
+        name: "Azure Monitor",
+        image:
+          "https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png",
+      },
+      {
+        name: "Application Insights",
+        image:
+          "https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png",
+      },
+    ],
+  },
+  {
+    title: "Scripting & Automation",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Bash",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+      },
+      {
+        name: "PowerShell",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Operating Systems & Development",
+    skills: [
+      {
+        name: "Linux",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "Spring Boot",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Jupyter Notebook",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://clipart-library.com/new_gallery/310-3104782_amazon-logo-png-white-aws-with-transparent-background.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       },
     ],
   },
